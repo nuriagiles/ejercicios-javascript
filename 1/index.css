@@ -1,0 +1,25 @@
+.div-padre{
+    display: flex;
+    gap: 100px;
+}
+.div-publicaciones, .div-publicacionesNueva{
+    margin-bottom: 40px;
+    width: 700px;
+    padding: 10px 15px 30px 25px;
+    border: 1px solid rgb(94, 125, 151);
+    border-radius: 8px;
+    background-color: aliceblue;
+}
+.container-comentarios{
+    margin-bottom: 40px;
+    width: 400px;
+    padding: 10px 15px 30px 25px;
+    border: 1px solid rgb(122, 154, 180);
+    border-radius: 8px;
+    background-color: rgb(181, 215, 245);
+}
+form, label{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
