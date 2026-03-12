@@ -96,7 +96,8 @@ function Añadir(e){
     NoticiasArray.push(NuevaNoticia)
 
     let i = NoticiasArray.length - 1
-
+    console.log(NoticiasArray.length)
+    
     filas += `<div class="div-publicaciones">
     <h1>${NuevaNoticia.titulo}</h1>
     <p>${NuevaNoticia.etiqueta}</p>
