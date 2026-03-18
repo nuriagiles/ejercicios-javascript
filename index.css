@@ -8,23 +8,26 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: pink;
 }
 .cartas{
     width: 200px;
     height: 80px;
     border-radius: 8px;
-    border: 1px solid grey;
+    border: 1px solid rgb(104, 103, 103);
     text-align: center;
     align-content: center;
     margin: 20px 0px 20px 0px;
-    box-shadow: 5px 5px 2px 0px #d1d1d1;
+    box-shadow: 5px 5px 2px 0px #707070;
 }
 .div-padre{
-    border: 2px solid grey;
+    border: 2px solid rgb(104, 103, 103);
     border-radius: 8px;
     width: fit-content;
-    padding: 0px 20px 0px 20px;
+    padding: 10px 20px 10px 20px;
     margin-bottom: 30px;
+    margin-top: 30px;
+    background-color: white;
 }
 .div-hijo{
     display: flex;
@@ -34,9 +37,10 @@ body{
     width: 865px;
     height: 80px;
     border-radius: 8px;
-    border: 1px solid grey;
+    border: 2px solid rgb(104, 103, 103);
     text-align: center;
     align-content: center;
     margin-bottom: 20px;
-    box-shadow: 5px 5px 2px 0px #d1d1d1;
+    box-shadow: 5px 5px 2px 0px #707070;
+    background-color: white;
 }
