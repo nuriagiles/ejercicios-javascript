@@ -1,0 +1,42 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.cartas{
+    width: 200px;
+    height: 80px;
+    border-radius: 8px;
+    border: 1px solid grey;
+    text-align: center;
+    align-content: center;
+    margin: 20px 0px 20px 0px;
+    box-shadow: 5px 5px 2px 0px #d1d1d1;
+}
+.div-padre{
+    border: 2px solid grey;
+    border-radius: 8px;
+    width: fit-content;
+    padding: 0px 20px 0px 20px;
+    margin-bottom: 30px;
+}
+.div-hijo{
+    display: flex;
+    gap: 20px;
+}
+.div-apuntes{
+    width: 865px;
+    height: 80px;
+    border-radius: 8px;
+    border: 1px solid grey;
+    text-align: center;
+    align-content: center;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 2px 0px #d1d1d1;
+}
