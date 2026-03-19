@@ -1,0 +1,9 @@
+.vermell{ 
+    color: red; 
+}
+.error{ 
+    border: 2px solid red; 
+}
+.amagat{ 
+    display: none; 
+}
