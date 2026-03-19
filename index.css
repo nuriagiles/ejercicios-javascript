@@ -10,6 +10,7 @@ body{
     flex-direction: column;
     background-color: pink;
 }
+
 .cartas{
     width: 200px;
     height: 80px;
@@ -34,7 +35,7 @@ body{
     gap: 20px;
 }
 .div-apuntes{
-    width: 865px;
+    width: 300px;
     height: 80px;
     border-radius: 8px;
     border: 2px solid rgb(104, 103, 103);
@@ -43,4 +44,8 @@ body{
     margin-bottom: 20px;
     box-shadow: 5px 5px 2px 0px #707070;
     background-color: white;
+}
+.div-herramientas{
+    display: flex;
+    gap: 20px;
 }
